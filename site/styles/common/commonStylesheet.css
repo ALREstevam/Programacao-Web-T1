@@ -1,0 +1,36 @@
+/*
+Folha de estilos com definição de classes gerais com uso bastante comum
+*/
+
+.image{
+    background: center no-repeat /*url("")*/;
+    background-size: contain;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.centralized{
+    left: auto;
+    right: auto;
+    display: block;
+}
+
+.centralizedText{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.resetBody{
+    margin: 0;
+    padding: 0;
+
+
+}
