@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecad2e02-1f52-405d-9038-5d3618cbf361" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Android OS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Audio Book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Audio Wave2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Audio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Average Math.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Bitbucket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Book Shelf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Book Stack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-C Programming.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-CSS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-CSS3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Center of Gravity.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Change Theme.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Circled Play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Classroom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Code File.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Contact Info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Course.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Developer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Downloads.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Envelope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-External Link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Female User.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-File.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Film.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Form.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-GitHub.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Globe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Goal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Classroom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Drive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Maps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Sites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/PROGWEB-TRAB1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/js/swapCss.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/index.html" afterPath="$PROJECT_DIR$/site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/common/commonStylesheet.css" afterPath="$PROJECT_DIR$/site/styles/common/commonStylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/tests/testStylesheet.css" afterPath="$PROJECT_DIR$/site/styles/tests/testStylesheet.css" />
@@ -129,6 +170,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -324,6 +368,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ecad2e02-1f52-405d-9038-5d3618cbf361" name="Default" comment="" />
@@ -331,16 +378,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504907145395</updated>
-      <workItem from="1504907147956" duration="14090000" />
+      <workItem from="1504907147956" duration="14155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14090000" />
+    <option name="totallyTimeSpent" value="14155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493172" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -360,6 +407,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
