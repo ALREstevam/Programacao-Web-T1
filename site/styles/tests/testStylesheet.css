@@ -33,3 +33,6 @@ Definição de classes para agilizar os testes
     color: darkgoldenrod;
 }
 
+.border{
+    border: solid black 1px;
+}

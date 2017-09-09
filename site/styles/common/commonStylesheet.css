@@ -1,25 +1,40 @@
 /*
-Folha de estilos com definição de classes gerais com uso bastante comum
+Folha de estilos com definição de classes gerais com uso comum
 */
 
-.image{
-    background: center no-repeat /*url("")*/;
-    background-size: contain;
-    display: block;
-    height: 50px;
-    width: 50px;
+body{
+    height: 100%;
 }
 
+/*
+Faz com que uma div se comporte como um elemento img, mas a imagem será redimencionada de
+maneira a não causar distorções
+*/
+.icon{
+    background: center no-repeat url("../../media/images/icons/image-icon.png");
+    background-size: contain;
+    display: block;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+/*
+Faz com que o elemento fique centralizado dentro do espaço que se encontra
+*/
 .centralized{
-    left: auto;
+    left: 0;
     right: auto;
     display: block;
 }
 
+/*
+Faz com que o texto fique centralizado dentro do espaço que se encontra
+*/
 .centralizedText{
     text-align: center;
 }
 
+/*Classes para gerenciar o comportamento do negrito e itálico*/
 .bold{
     font-weight: bold;
 }
@@ -28,9 +43,82 @@ Folha de estilos com definição de classes gerais com uso bastante comum
     font-style: italic;
 }
 
+/*Classes para remover margem e padding do elemento body*/
 .resetBody{
     margin: 0;
     padding: 0;
-
-
 }
+
+/*Define o tamanho padrão de um h1 dentro de um section como 1.5em*/
+section h1{
+    font-size: 1.5em;
+}
+
+/**/
+footer.footer{
+    width: calc(100% - 2px);
+    bottom: 0;
+    position: relative;
+    margin-top: 10%;
+}
+
+
+/*================ FLEX CONTENT ============*/
+.flexContent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexContent .box{
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    flex-grow: 1;
+    /*border: solid gray 1px;*/
+    /*box-shadow: rgba(0, 0, 0, 0.33) 0 0 5px;*/
+}
+
+.flexContent .full{
+    min-width: 90%;
+}
+
+.flexContent .large{
+    /*background-color: lightcoral;*/
+    min-width: 15%;
+    max-width: 48%;
+}
+
+.flexContent .medium{
+    /*background-color: lightgreen;*/
+    min-width: 15%;
+    max-width: 30%;
+}
+
+.flexContent .small {
+    /*background-color: lightblue;*/
+    min-width: 2%;
+    max-width: 20%;
+}
+
+.flexContent .box img{
+    width: 50%;
+    height: auto;
+}
+
+.flexContent .box .ytvideo{
+    width: 100%;
+    min-height: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.flexContent .tblDiv{
+    display: table;
+    width: 100%;
+}
+
+
+
+
+/**/
