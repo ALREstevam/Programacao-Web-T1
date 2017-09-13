@@ -15,12 +15,13 @@ function restoreLastSheet(linkid) {
 
     if (typeof(Storage) !== "undefined") {
         console.log('IS UNDEFINED');
-        if(localStorage.length == 0){
+        if(localStorage.getItem("cssswap") == null){
             var style = nextSheet(linkid);
-            console.log('SETTING TO '+style);
+            console.log('SETTING TO: '+style);
             localStorage.setItem("cssswap", style);
         }else{
-            document.getElementById(linkid).href = localStorage.getItem('cssswap');
+            console.log('FOUND LAST ' + localStorage.getItem('cssswap'));
+            document.getElementById(linkid).href = sheetList[localStorage.getItem('cssswap')];
         }
 
     } else {
@@ -32,11 +33,15 @@ function nextSheet(linkid) {
     console.log('NEXSHEET');
 
     if(sheetList.length > 0){
+
         currentSheet = calcNextElem(sheetList.length, currentSheet);
+        
+        console.log("SETTING: "+currentSheet)
         document.getElementById(linkid).href = sheetList[currentSheet];
-        return sheetList[currentSheet];
+        localStorage.setItem('cssswap', currentSheet);
+        return currentSheet;
     }else{
         console.log('No stylesheet was set to make the swap.')
-        return null;
+        return -1;
     }
 }

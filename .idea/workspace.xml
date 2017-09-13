@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecad2e02-1f52-405d-9038-5d3618cbf361" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/media/images/icons/Thumbs.db" afterPath="$PROJECT_DIR$/site/media/images/icons/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/index.html" afterPath="$PROJECT_DIR$/site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/js/swapCss.js" afterPath="$PROJECT_DIR$/site/js/swapCss.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/common/commonStylesheet.css" afterPath="$PROJECT_DIR$/site/styles/common/commonStylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/style1/css1.css" afterPath="$PROJECT_DIR$/site/styles/style1/css1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/style2/css2.css" afterPath="$PROJECT_DIR$/site/styles/style2/css2.css" />
     </list>
     <ignored path="PROGWEB-TRAB1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="swapCss.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swapCss.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/js/swapCss.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="306">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -72,7 +66,7 @@
       <file leaf-file-name="andre.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/html/group/andre.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="170">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commonStylesheet.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="commonStylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="93" column="19" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -96,7 +90,7 @@
       <file leaf-file-name="css2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/styles/style2/css2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3460">
+            <state relative-caret-position="-3400">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -401,12 +395,12 @@
       <workItem from="1505216459497" duration="16237000" />
       <workItem from="1505234938880" duration="2826000" />
       <workItem from="1505270504211" duration="2402000" />
-      <workItem from="1505322648411" duration="8224000" />
+      <workItem from="1505322648411" duration="11038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43844000" />
+    <option name="totallyTimeSpent" value="46658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,22 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/styles/style2/css2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3460">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/html/concepts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -717,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/html/group/andre.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="170">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -727,18 +705,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
+    <entry file="file://$PROJECT_DIR$/site/js/swapCss.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/js/swapCss.js">
+    <entry file="file://$PROJECT_DIR$/site/html/concepts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/style2/css2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3400">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="19" />
           <folding />
         </state>
       </provider>
