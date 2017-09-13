@@ -5,6 +5,12 @@ body{
     height: 100vh;
 }
 
+section h1{
+    font-size: 3em;
+}
+
+
+
 /*Button swap CSS*/
 .swapBg{
     margin-top: 20px;
@@ -45,7 +51,7 @@ body{
 .sidebar .sideMenu{
 
     position: fixed;
-    border-left: gray solid 1px;
+    border-left: gray solid 3px;
 }
 
 .sidebar .sideMenu ul li a:active{
@@ -171,3 +177,32 @@ header{
     float: left;
     background-color: cornflowerblue;
 }
+
+.personIcon{
+    border-radius: 100%;
+    border: solid 5px rgba(112, 106, 113, 0.53);
+    background-color: lightblue;
+    transition: border 0.2s, background-color 0.2s;
+}
+
+.personIcon:hover{
+    border: solid 5px rgba(117, 111, 118, 0.7);
+    background-color: rgba(0, 191, 255, 0.58);
+}
+
+.wrappableFlexBoxContent{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.flexContent.typePerson{
+
+    box-shadow: rgba(3, 0, 52, 0.56) 0 0 10px;
+}
+
+.flexNoWrap{
+    flex-wrap: nowrap !important;
+}
+
+

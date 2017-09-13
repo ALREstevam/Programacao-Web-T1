@@ -3,9 +3,22 @@ body{
 
     background-size: contain;
     color: whitesmoke;
-    font-family: "Courier New", Times, Serif, Monospaced;
+    font-family: "Courier New", Times, Monospaced, Serif;
     font-size: 14pt;
 }
+
+a{
+    color: #19c618;
+}
+
+a:active{
+    color: #48c23f;
+}
+
+a:hover{
+    color: #41ff00;
+}
+
 
 .css2{
     visibility: hidden;
@@ -119,3 +132,32 @@ header{
     float: left;
     background-color: rgba(0, 0, 0, 0.81);
 }
+
+
+.personIcon{
+    border-radius: 100%;
+    border: solid 5px rgba(112, 106, 113, 0.53);
+    background-color: rgba(28, 247, 99, 0.64);
+    transition: border 0.2s, background-color 0.2s;
+}
+
+.personIcon:hover{
+    border: solid 5px rgba(117, 111, 118, 0.7);
+    background-color: rgba(62, 230, 67, 0.86);
+}
+
+.wrappableFlexBoxContent{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.flexContent.typePerson{
+
+    box-shadow: rgba(3, 0, 52, 0.56) 0 0 10px;
+}
+
+.flexNoWrap{
+    flex-wrap: nowrap !important;
+}
+

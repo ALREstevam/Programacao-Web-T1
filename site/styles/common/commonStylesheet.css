@@ -11,9 +11,8 @@ Faz com que uma div se comporte como um elemento img, mas a imagem será redimen
 maneira a não causar distorções
 */
 .icon{
-    background: center no-repeat url("../../media/images/icons/logotipo_ft.png");
+    background:center no-repeat url("../../media/images/icons/logotipo_ft.png");
     background-size: contain;
-    background-position: left center;
     display: block;
     min-height: 50px;
     min-width: 50px;
@@ -33,6 +32,7 @@ Faz com que o texto fique centralizado dentro do espaço que se encontra
 */
 .centralizedText{
     text-align: center;
+    width: 100%;
 }
 
 /*Classes para gerenciar o comportamento do negrito e itálico*/
@@ -58,7 +58,8 @@ section h1{
 /**/
 footer.footer{
     width: 100%;
-    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .menu ul li a{
@@ -82,26 +83,28 @@ footer.footer{
     /*box-shadow: rgba(0, 0, 0, 0.33) 0 0 5px;*/
 }
 
-.flexContent .full{
-    min-width: 90%;
-}
 
-.flexContent .large{
+
+.flexContent .type1{
     /*background-color: lightcoral;*/
     min-width: 15%;
     max-width: 48%;
 }
 
-.flexContent .medium{
+.flexContent .type2{
     /*background-color: lightgreen;*/
     min-width: 15%;
     max-width: 30%;
 }
 
-.flexContent .small {
+.flexContent .type3 {
     /*background-color: lightblue;*/
     min-width: 2%;
     max-width: 20%;
+}
+
+.flexContent .type4{
+    min-width: 90%;
 }
 
 .flexContent .box img{
@@ -121,7 +124,22 @@ footer.footer{
     width: 100%;
 }
 
+a.clear{
+    text-decoration: none;
+    color: inherit;
+}
 
+a.clear:after{
+    text-decoration: none;
+    color: inherit;
+}
 
+a.clear:hover{
+    text-decoration: underline;
+}
+
+code {
+    font-family: Courier, Monaco, monospace;
+}
 
 /**/

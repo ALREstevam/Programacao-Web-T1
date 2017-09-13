@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Programação Web</title>
+
+    <link rel="icon" href="" type="image/gif" sizes="16x16">
+
+    <script src="../../js/swapCss.js">
+    </script>
+
+
+    <link type="text/css" rel="stylesheet" href="../../styles/tests/testStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../../styles/common/commonStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="" id="swappableCss">
+
+    <script>
+        setSheetList(['../../styles/style1/css1.css','../../styles/style2/css2.css']);
+        restoreLastSheet('swappableCss');
+    </script>
+
+</head>
+<body class="resetBody">
+
+<!-- CABEÇALHO -->
+<header>
+
+    <div class="swapBg" onclick="nextSheet('swappableCss');">
+        <div class="icon" style="background-image: url('../../media/images/icons/icons8-Rotate Right-96.png')"><span>Trocar CSS</span></div>
+    </div>
+
+    <div class="icon css2" style="background-image: url('../../media/images/icons/logotipo_ft.png')"></div>
+    <div class="icon css2" style="background-image: url('../../media/images/icons/logo_unicamp.svg')"></div>
+
+    <div>
+        <h1>Grupo Xablau- SI401B</h1>
+    </div>
+
+    <!-- MENU -->
+    <section class="menu">
+        <!-- MENU -->
+        <nav class="menu">
+            <ul>
+                <li><a href="../../index.html">Página inicial</a></li>
+                <li><a href="../group.html">Grupo</a></li>
+                <li><a href="../media.html">Mídia</a></li>
+                <li><a href="../concepts.html">Conceitos utilizados</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<!-- CONTEÚDO -->
+<section class="content">
+    <h1>Integrante do grupo: </h1>
+
+</section>
+
+<section class="sidebar css2">
+    <nav class="sideMenu">
+        <ul>
+
+            <li><a href="">Página inicial</a></li>
+            <li><a href="">Grupo</a>
+                <ul>
+                    <li><a href="">André</a></li>
+                    <li><a href="">Mayara</a></li>
+                    <li><a href="">Pedro</a></li>
+                    <li><a href="">Huanna</a></li>
+                    <li><a href="">Karen</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">Mídia</a>
+                <ul>
+                    <li><a href="">Audio</a></li>
+                    <li><a href="">Video</a></li>
+                    <li><a href="">Links</a></li>
+                </ul>
+            </li>
+            <li><a href="">Conceitos utilizados</a>
+                <ul>
+                    <li><a href="">HTML</a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">Outros</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</section>
+
+
+<!-- FOOTET -->
+<footer class="footer centralizedText">
+    <p>
+        Website desenvolvido para a disciplina de Programação Web<br>
+        <strong>Contato: </strong><a href="mailto:grupoxablau2017@gmail.com" target="_top">grupoxablau2017@gmail.com</a><br>
+        Projeto no <a href="https://github.com/ALREstevam/Programacao-Web-T1" target="_blank">GitHub</a>
+    </p>
+
+
+
+
+
+
+</footer>
+</body>
+</html>
