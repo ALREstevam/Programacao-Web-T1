@@ -11,8 +11,9 @@ Faz com que uma div se comporte como um elemento img, mas a imagem será redimen
 maneira a não causar distorções
 */
 .icon{
-    background: center no-repeat url("../../media/images/icons/image-icon.png");
+    background: center no-repeat url("../../media/images/icons/logotipo_ft.png");
     background-size: contain;
+    background-position: left center;
     display: block;
     min-height: 50px;
     min-width: 50px;
@@ -56,12 +57,14 @@ section h1{
 
 /**/
 footer.footer{
-    width: calc(100% - 2px);
-    bottom: 0;
-    position: relative;
-    margin-top: 10%;
+    width: 100%;
+    height: 50px;
 }
 
+.menu ul li a{
+    color: inherit;
+    text-decoration: none;
+}
 
 /*================ FLEX CONTENT ============*/
 .flexContent{

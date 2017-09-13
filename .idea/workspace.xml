@@ -2,52 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecad2e02-1f52-405d-9038-5d3618cbf361" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Android OS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Audio Book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Audio Wave2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Audio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Average Math.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Bitbucket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Book Shelf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Book Stack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-C Programming.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-CSS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-CSS3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Center of Gravity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Change Theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Circled Play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Classroom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Code File.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Contact Info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Course.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Developer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Downloads.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Envelope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-External Link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Female User.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-File.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Film.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Form.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Gallery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-GitHub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Globe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Goal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Classroom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Drive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Maps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/media/images/icons/icons8-Google Sites.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/PROGWEB-TRAB1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/js/swapCss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/media/images/icons/Thumbs.db" afterPath="$PROJECT_DIR$/site/media/images/icons/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/index.html" afterPath="$PROJECT_DIR$/site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/common/commonStylesheet.css" afterPath="$PROJECT_DIR$/site/styles/common/commonStylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/tests/testStylesheet.css" afterPath="$PROJECT_DIR$/site/styles/tests/testStylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/style1/css1.css" afterPath="$PROJECT_DIR$/site/styles/style1/css1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/styles/style2/css2.css" afterPath="$PROJECT_DIR$/site/styles/style2/css2.css" />
     </list>
     <ignored path="PROGWEB-TRAB1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +28,7 @@
     <favorites_list name="PROGWEB-TRAB1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="swapCss.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/js/swapCss.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,13 +39,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="195">
+              <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
               <folding>
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,38 +56,8 @@
       <file leaf-file-name="commonStylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="25" column="44" selection-start-line="23" selection-start-column="14" selection-end-line="25" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testStylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/styles/tests/testStylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/styles/style1/css1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -134,8 +66,18 @@
       <file leaf-file-name="css2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/styles/style2/css2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="161">
+              <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css1.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/styles/style1/css1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -158,11 +100,11 @@
       <list>
         <option value="$PROJECT_DIR$/site/js/swapCss.js" />
         <option value="$PROJECT_DIR$/site/t.html" />
-        <option value="$PROJECT_DIR$/site/styles/style1/css1.css" />
-        <option value="$PROJECT_DIR$/site/styles/style2/css2.css" />
         <option value="$PROJECT_DIR$/site/styles/tests/testStylesheet.css" />
         <option value="$PROJECT_DIR$/site/styles/common/commonStylesheet.css" />
         <option value="$PROJECT_DIR$/site/index.html" />
+        <option value="$PROJECT_DIR$/site/styles/style2/css2.css" />
+        <option value="$PROJECT_DIR$/site/styles/style1/css1.css" />
       </list>
     </option>
   </component>
@@ -178,7 +120,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -206,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,8 +272,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,6 +297,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -379,31 +327,43 @@
       <option name="presentableId" value="Default" />
       <updated>1504907145395</updated>
       <workItem from="1504907147956" duration="14155000" />
+      <workItem from="1505216459497" duration="16237000" />
+      <workItem from="1505234938880" duration="2826000" />
+      <workItem from="1505270504211" duration="2387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14155000" />
+    <option name="totallyTimeSpent" value="35605000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493172" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -424,7 +384,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/t.html">
+    <entry file="file://$PROJECT_DIR$/site/js/swapCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -432,26 +412,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="44" selection-start-line="23" selection-start-column="14" selection-end-line="25" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/styles/style2/css2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/styles/style1/css1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -464,6 +436,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/js/swapCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="44" selection-start-line="23" selection-start-column="14" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/styles/tests/testStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -472,21 +491,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
+    <entry file="file://$PROJECT_DIR$/site/styles/style1/css1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/style2/css2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/t.html" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="44" selection-start-line="23" selection-start-column="14" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/tests/testStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/media/images/icons/logo_unicamp.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/js/swapCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="195">
+          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/common/commonStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/style2/css2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/styles/style1/css1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,121 @@
 body{
-    background-color: lightgreen;
+    background: white url("../../media/images/pictures/bg16.jpg") center ;
+
+    background-size: contain;
+    color: whitesmoke;
+    font-family: "Courier New", Times, Serif, Monospaced;
+    font-size: 14pt;
+}
+
+.css2{
+    visibility: hidden;
+}
+
+.swapBg{
+    margin-top: 50px;
+    margin-right: 5px;
+    background-color: rgba(31, 255, 87, 0.37);
+    text-align: center;
+    color: #3ad354;
+    font-weight: bold;
+    cursor: pointer;
+
+    float: right;
+    margin-left: 92%;
+    position: fixed;
+    right: 0;
+    border-radius: 100px;
+
+}
+
+.swapBg span{
+    line-height: 100px;
+}
+
+.swapBg:hover{
+    background-color: rgba(26, 107, 36, 0.82);
+}
+
+
+.menu ul li{
+    list-style-type: none;
+    background-color: #370015;
+}
+
+header h1{
+    width: 100%;
+    display: table;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+    text-shadow: #030037 0 0 20px;
+}
+
+.css1{
+    visibility: hidden;
+}
+
+
+header hr{
+    visibility: hidden;
+
+}
+
+.menu{
+    display: flex;
+    background-color: #5d002e;
+    width: 100%;
+}
+
+.icon{
+    min-height: 70px;
+    min-width: 70px;
+    float: left;
+    left: 0;
+    right: auto;
+    display: block;
+}
+
+.menu ul li{
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    font-size: 1.5em;
+    margin: 2px;
+}
+
+.menu ul li:hover{
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+.menu ul{
+    width: 100%;
+}
+
+
+header{
+    margin-top: -21px;
+    width: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.content{
+    color: whitesmoke;
+    font-size: 1.2em;
+    width: 80%;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.81);
+    padding: 60px;
+
+}
+
+.footer{
+    position: relative;
+    display: block;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.81);
 }
