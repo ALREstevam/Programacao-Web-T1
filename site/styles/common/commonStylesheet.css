@@ -79,8 +79,6 @@ footer.footer{
     display: flex;
     padding: 5px;
     flex-grow: 1;
-    /*border: solid gray 1px;*/
-    /*box-shadow: rgba(0, 0, 0, 0.33) 0 0 5px;*/
 }
 
 
