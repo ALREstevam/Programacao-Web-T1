@@ -81,12 +81,17 @@ footer.footer{
     flex-grow: 1;
 }
 
+.flexContent .type0{
+    min-width: 33%;
+    width: 33%;
+    max-width: 33%;
 
+}
 
 .flexContent .type1{
     /*background-color: lightcoral;*/
     min-width: 15%;
-    max-width: 48%;
+    max-width: 40%;
 }
 
 .flexContent .type2{
@@ -136,8 +141,28 @@ a.clear:hover{
     text-decoration: underline;
 }
 
-code {
+.code code {
     font-family: Courier, Monaco, monospace;
+    color: rgba(191, 242, 254, 1);
 }
 
-/**/
+pre.code{
+    background-color: rgba(43, 43, 43, 1);
+}
+
+ul.coollist > li{
+    margin-top: 50px;
+}
+
+ul.coollist > li > ul > li{
+    margin-top: 10px;
+}
+
+ul.coollist > li span{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+

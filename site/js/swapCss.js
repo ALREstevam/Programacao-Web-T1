@@ -1,26 +1,42 @@
 var sheetList = [];
-var currentSheet = 2;
+var sheetSize = 0;
 
 function setSheetList(infoArr) {
     sheetList = infoArr;
+    sheetSize = sheetList.length;
 }
 
 function calcNextElem(total, current) {
-    return (current + 1) % total;
+    //var rsp = ((current + 1) % total);
+    //console.log("("+current +"+1) % "+total+" = "+rsp);
+
+    if(current == 0){
+        return 1;
+    }else{
+        return 0;
+    }
+
+    //return rsp;
 }
 
 function nextSheet(linkId){
-    currentSheet = calcNextElem(sheetList.length, currentSheet);
-    document.getElementById(linkId).href = sheetList[currentSheet];
-    localStorage.setItem('cssswap',currentSheet);
+    var current = localStorage.getItem('swap');
+
+    var nextelem = calcNextElem(sheetSize, current);
+    setSheet(linkId, nextelem);
+    console.log('current: '+current+', next: '+ nextelem+', size: '+sheetSize);
 }
 
-function restoreLastSheet(linkid) {
-    if (!localStorage.getItem('cssswap')) {
-        nextSheet(linkid);
+function setSheet(linkId, index) {
+    localStorage.setItem('swap', index);
+    document.getElementById(linkId).href = sheetList[index];
+}
 
+function restoreLastSheet(linkId) {
+    if (!localStorage.getItem('swap')) {
+        localStorage.setItem('swap', 0);
+        document.getElementById(linkId).href = sheetList[0];
     } else {
-        currentSheet = localStorage.getItem('cssswap');
-        document.getElementById(linkid).href = sheetList[currentSheet];
+        document.getElementById(linkId).href = sheetList[localStorage.getItem('swap')];
     }
 }

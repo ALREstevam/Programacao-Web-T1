@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Programação Web</title>
+
+    <link rel="shortcut icon" href="../media/images/icons/favicon1.ico" type="image/x-icon">
+    <link rel="icon" href="../media/images/icons/favicon1.ico" type="image/x-icon">
+
+    <script src="../js/swapCss.js">
+    </script>
+
+
+    <link type="text/css" rel="stylesheet" href="../styles/tests/testStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../styles/common/commonStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="" id="swappableCss">
+
+    <script>
+        setSheetList(['../styles/style1/css1.css','../styles/style2/css2.css']);
+        //nextSheet('swappableCss');
+        restoreLastSheet('swappableCss');
+    </script>
+</head>
+<body class="resetBody">
+
+<!-- CABEÇALHO -->
+<header>
+
+    <div class="swapBg" onclick="nextSheet('swappableCss');">
+        <div class="icon" style="background-image: url('../media/images/icons/icons8-Rotate Right-96.png')"><span>Trocar CSS</span></div>
+    </div>
+
+    <div class="icon css2" style="background-image: url('../media/images/icons/logotipo_ft.png')"></div>
+    <div class="icon css2" style="background-image: url('../media/images/icons/logo_unicamp.svg')"></div>
+
+    <div>
+        <h1>Grupo Xablau- SI401B</h1>
+    </div>
+
+    <!-- MENU -->
+    <section class="menu">
+        <!-- MENU -->
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Página inicial</a></li>
+                <li><a href="group.html">Grupo</a></li>
+                <li><a href="media.html">Mídia</a></li>
+                <li><a href="concepts.html">Conceitos utilizados</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<!-- CONTEÚDO -->
+<section class="content">
+    <h1>Integrantes do grupo</h1>
+    <div class="flexContent flexNoWrap">
+
+        <!-- PESSOA -->
+        <div class="box typePerson wrappableFlexBoxContent">
+            <a href="group/andre.html">
+                <div class="icon personIcon" style="background-image: url('../media/images/icons/icons8-Customer-96.png')">
+                </div>
+            </a>
+            <p class="centralizedText">
+                <a href="group/andre.html" class="clear bold">André L. R. Estevam</a>
+            </p>
+            <a class="centralizedText" href="mailto:a166348@g.unicamp.br" target="_top">e-mail</a>
+        </div>
+
+        <!-- PESSOA -->
+        <div class="box typePerson wrappableFlexBoxContent">
+            <a href="group/">
+                <div class="icon personIcon" style="background-image: url('../media/images/icons/icons8-Customer-96.png')">
+                </div>
+            </a>
+            <p class="centralizedText">
+                <a href="group/" class="clear bold">Nome do Nome nomes muitosnomes</a>
+            </p>
+            <a class="centralizedText" href="mailto:" target="_top">e-mail</a>
+        </div>
+
+        <!-- PESSOA -->
+        <div class="box typePerson wrappableFlexBoxContent">
+            <a href="group/">
+                <div class="icon personIcon" style="background-image: url('../media/images/icons/icons8-Customer-96.png')">
+                </div>
+            </a>
+            <p class="centralizedText">
+                <a href="group/" class="clear bold">Nome do Nome nomes muitosnomes</a>
+            </p>
+            <a class="centralizedText" href="mailto:" target="_top">e-mail</a>
+        </div>
+
+        <!-- PESSOA -->
+        <div class="box typePerson wrappableFlexBoxContent">
+            <a href="group/">
+                <div class="icon personIcon" style="background-image: url('../media/images/icons/icons8-Customer-96.png')">
+                </div>
+            </a>
+            <p class="centralizedText">
+                <a href="group/" class="clear bold">Nome do Nome nomes muitosnomes</a>
+            </p>
+            <a class="centralizedText" href="mailto:" target="_top">e-mail</a>
+        </div>
+
+        <!-- PESSOA -->
+        <div class="box typePerson wrappableFlexBoxContent">
+            <a href="group/">
+                <div class="icon personIcon" style="background-image: url('../media/images/icons/icons8-Customer-96.png')">
+                </div>
+            </a>
+            <p class="centralizedText">
+                <a href=group/" class="clear bold">Nome do Nome nomes muitosnomes</a>
+            </p>
+            <a class="centralizedText" href="mailto:" target="_top">e-mail</a>
+        </div>
+    </div>
+
+    <h1>Contato com o grupo</h1>
+    <p>
+        O grupo pode ser contatado através do e-mail
+        <a href="mailto:grupoxablau2017@gmail.com" target="_top">grupoxablau2017@gmail.com</a>
+    </p>
+
+</section>
+
+<section class="sidebar css2">
+    <nav class="sideMenu">
+        <ul>
+
+            <li><a href="../index.html">Página inicial</a></li>
+            <li><a href="">Grupo</a>
+                <ul>
+                    <li><a href="group/andre.html">André</a></li>
+                    <li><a href="group/mayara.html">Mayara</a></li>
+                    <li><a href="group/huanna.html">Huanna</a></li>
+                    <li><a href="group/pedro.html">Pedro</a></li>
+                    <li><a href="group/karen.html">Karen</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">Mídia</a>
+                <ul>
+                    <li><a href="media.html#audio">Audio</a></li>
+                    <li><a href="media.html#video">Video</a></li>
+                    <li><a href="media.html#links">Links</a></li>
+                </ul>
+            </li>
+            <li><a href="">Conceitos utilizados</a>
+                <ul>
+                    <li><a href="concepts.html#html">HTML</a></li>
+                    <li><a href="concepts.html#css">CSS</a></li>
+                    <li><a href="concepts.html#other">Outros</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</section>
+
+
+<!-- FOOTET -->
+<footer class="footer centralizedText">
+    <p>
+        Website desenvolvido para a disciplina de Programação Web<br>
+        <strong>Contato: </strong><a href="mailto:grupoxablau2017@gmail.com" target="_top">grupoxablau2017@gmail.com</a><br>
+        Projeto no <a href="https://github.com/ALREstevam/Programacao-Web-T1" target="_blank">GitHub</a>
+    </p>
+    <a href="https://icons8.com">Icon pack by Icons8</a>
+</footer>
+
+
+
+</body>
+</html>

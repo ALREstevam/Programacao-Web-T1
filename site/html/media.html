@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Programação Web</title>
+
+    <link rel="shortcut icon" href="../media/images/icons/favicon1.ico" type="image/x-icon">
+    <link rel="icon" href="../media/images/icons/favicon1.ico" type="image/x-icon">
+
+    <script src="../js/swapCss.js">
+    </script>
+
+
+    <link type="text/css" rel="stylesheet" href="../styles/tests/testStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../styles/common/commonStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="" id="swappableCss">
+
+    <script>
+        setSheetList(['../styles/style1/css1.css','../styles/style2/css2.css']);
+        //nextSheet('swappableCss');
+        restoreLastSheet('swappableCss');
+    </script>
+
+
+</head>
+<body class="resetBody">
+
+<!-- CABEÇALHO -->
+<header>
+
+    <div class="swapBg" onclick="nextSheet('swappableCss');">
+        <div class="icon" style="background-image: url('../media/images/icons/icons8-Rotate Right-96.png')"><span>Trocar CSS</span></div>
+    </div>
+
+    <div class="icon css2" style="background-image: url('../media/images/icons/logotipo_ft.png')"></div>
+    <div class="icon css2" style="background-image: url('../media/images/icons/logo_unicamp.svg')"></div>
+
+    <div>
+        <h1>Grupo Xablau- SI401B</h1>
+    </div>
+
+    <!-- MENU -->
+    <section class="menu">
+        <!-- MENU -->
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Página inicial</a></li>
+                <li><a href="group.html">Grupo</a></li>
+                <li><a href="media.html">Mídia</a></li>
+                <li><a href="concepts.html">Conceitos utilizados</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<!-- CONTEÚDO -->
+<section class="content">
+    <h1><div class="icon" style="background-image: url('../media/images/icons/icons8-Circled Play.png'); min-height: 40pt"></div></div>Mídia</h1>
+
+    <h2 id="links">Links</h2>
+    <div class="flexContent">
+
+        <!-- LINK -->
+        <div class="box type5 linkFormat">
+            <div class="completeline">
+                <a href="https://tableless.com.br" target="_blank">tableless.com.br</a>
+                <strong>- Portal sobre desenvolvimento Web</strong>
+            </div>
+            <br>
+            <div>
+                Postado por: <a href="group/andre.html">André</a>
+            </div>
+        </div>
+        <!-- END LINK -->
+
+        <!-- LINK -->
+        <div class="box type5 linkFormat">
+            <div class="completeline">
+                <a href="http://www.devmedia.com.br/guias/php" target="_blank"> www.devmedia.com.br/guias/php</a>
+                <strong>- Guias do Devmedia sobre PHP</strong>
+            </div>
+            <br>
+            <div>
+                Postado por: <a href="group/andre.html">André</a>
+            </div>
+        </div>
+        <!-- END LINK -->
+
+        <!-- LINK -->
+        <div class="box type5 linkFormat">
+            <div class="completeline">
+                <a href="https://www.cursoemvideo.com/course/curso-de-html5/" target="_blank">www.cursoemvideo.com/course/curso-de-html5/</a>
+                <strong> - Curso de HTML5 do Curso em Vídeo</strong>
+            </div>
+            <br>
+            <div>
+                Postado por: <a href="group/andre.html">André</a>
+            </div>
+        </div>
+        <!-- END LINK -->
+    </div>
+
+    
+    
+    
+    
+    <h2 id="video">Video</h2>
+    <div class="flexContent">
+
+        <!-- VIDEO -->
+        <div class="box type1 linkFormat">
+            <div class="completeline">
+                <iframe src="https://www.youtube.com/embed/XiFkyR35v2Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="videobox"></iframe>
+                <strong>Slow Loris Attack - Computerphile</strong>
+            </div>
+            <br>
+            <div>
+                Postado por: <a href="group/andre.html">André</a>
+            </div>
+        </div>
+        <!-- END VIDEO -->
+
+        <!-- VIDEO -->
+        <div class="box type1 linkFormat">
+            <div class="completeline">
+                <iframe src="https://www.youtube.com/embed/-csXdj4WVwA?rel=0" frameborder="0" allowfullscreen class="videobox" ></iframe>
+                <strong>Where HTML beats C? - Computerphile</strong>
+            </div>
+            <br>
+            <div>
+                Postado por: <a href="group/andre.html">André</a>
+            </div>
+        </div>
+        <!-- END VIDEO -->
+
+        <!-- VIDEO -->
+        <div class="box type1 linkFormat">
+            <div class="completeline">
+                <iframe src="https://www.youtube.com/embed/L5l9lSnNMxg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="videobox"></iframe>
+                <strong>Cracking Websites with Cross Site Scripting - Computerphile</strong>
+            </div>
+            <br>
+            <div>
+                Postado por: <a href="group/andre.html">André</a>
+            </div>
+        </div>
+        <!-- END VIDEO -->
+    </div>
+    
+    
+    <h2 id="audio">Audio</h2>
+
+    <div class="flexContent">
+
+        <!-- AUDIO -->
+        <div class="box type1 linkFormat" >
+            <div class="completeline">
+                <audio controls>
+                    <source src="https://content.blubrry.com/hipsterstech/hipsters_016_single_page_apps.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+
+            <div>
+                <div class="completeline">
+                    <strong>Podcast sobre: Single Page Applications</strong>
+                    <a href="http://www.hipsters.tech/category/podcast/" target="_blank">[Site fonte]</a>
+                </div>
+                <div>
+                    <p>Postado por: <a href="group/andre.html">André</a></p>
+                </div>
+            </div>
+        </div>
+        <!--END AUDIO -->
+
+        <!-- AUDIO -->
+        <div class="box type1 linkFormat">
+            <div class="completeline">
+                <audio controls>
+                    <source src="https://media.blubrry.com/hipsterstech/p/content.blubrry.com/hipsterstech/hipsters_013_http2.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <br>
+            <div>
+                <div class="completeline">
+                    <strong>Podcast sobre: HTTP 2</strong>
+                    <a href="http://www.hipsters.tech/category/podcast/" target="_blank">[Site fonte]</a>
+                </div>
+                <div>
+                    <p>Postado por: <a href="group/andre.html">André</a></p>
+                </div>
+            </div>
+        </div>
+        <!--END AUDIO -->
+
+        <!-- AUDIO -->
+        <div class="box type1 linkFormat">
+            <div class="completeline">
+                <audio controls>
+                    <source src="https://media.blubrry.com/hipsterstech/p/content.blubrry.com/hipsterstech/hipsters_009_css.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <br>
+            <div>
+                <div class="completeline">
+                    <strong>Podcast sobre: CSS</strong>
+                    <a href="http://www.hipsters.tech/category/podcast/" target="_blank">[Site fonte]</a>
+                </div>
+                <div>
+                    <p>Postado por: <a href="group/andre.html">André</a></p>
+                </div>
+            </div>
+        </div>
+        <!--END AUDIO -->
+    </div>
+
+
+
+</section>
+
+<section class="sidebar css2">
+    <nav class="sideMenu">
+        <ul>
+
+            <li><a href="../index.html">Página inicial</a></li>
+            <li><a href="group.html">Grupo</a>
+                <ul>
+                    <li><a href="group/andre.html">André</a></li>
+                    <li><a href="group/mayara.html">Mayara</a></li>
+                    <li><a href="group/huanna.html">Huanna</a></li>
+                    <li><a href="group/pedro.html">Pedro</a></li>
+                    <li><a href="group/karen.html">Karen</a></li>
+                </ul>
+            </li>
+
+            <li><a href="media.html">Mídia</a>
+                <ul>
+                    <li><a href="media.html#audio">Audio</a></li>
+                    <li><a href="media.html#video">Video</a></li>
+                    <li><a href="media.html#links">Links</a></li>
+                </ul>
+            </li>
+            <li><a href="concepts.html">Conceitos utilizados</a>
+                <ul>
+                    <li><a href="concepts.html#html">HTML</a></li>
+                    <li><a href="concepts.html#css">CSS</a></li>
+                    <li><a href="concepts.html#other">Outros</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</section>
+
+
+<!-- FOOTET -->
+<footer class="footer centralizedText">
+    <p>
+        Website desenvolvido para a disciplina de Programação Web<br>
+        <strong>Contato: </strong><a href="mailto:grupoxablau2017@gmail.com" target="_top">grupoxablau2017@gmail.com</a><br>
+        Projeto no <a href="https://github.com/ALREstevam/Programacao-Web-T1" target="_blank">GitHub</a>
+    </p>
+    <a href="https://icons8.com">Icon pack by Icons8</a>
+</footer>
+
+
+
+</body>
+</html>
