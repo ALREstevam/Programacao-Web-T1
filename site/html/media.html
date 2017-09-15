@@ -13,7 +13,7 @@
 
     <link type="text/css" rel="stylesheet" href="../styles/tests/testStylesheet.css">
     <link type="text/css" rel="stylesheet" href="../styles/common/commonStylesheet.css">
-    <link type="text/css" rel="stylesheet" href="" id="swappableCss">
+    <link type="text/css" rel="stylesheet" href="../styles/common/commonStylesheet.css" id="swappableCss">
 
     <script>
         setSheetList(['../styles/style1/css1.css','../styles/style2/css2.css']);
@@ -27,7 +27,6 @@
 
 <!-- CABEÇALHO -->
 <header>
-
     <div class="swapBg" onclick="nextSheet('swappableCss');">
         <div class="icon" style="background-image: url('../media/images/icons/icons8-Rotate Right-96.png')"><span>Trocar CSS</span></div>
     </div>
@@ -40,7 +39,7 @@
     </div>
 
     <!-- MENU -->
-    <section class="menu">
+    <div class="menu">
         <!-- MENU -->
         <nav class="menu">
             <ul>
@@ -50,14 +49,17 @@
                 <li><a href="concepts.html">Conceitos utilizados</a></li>
             </ul>
         </nav>
-    </section>
+    </div>
 </header>
 
 <!-- CONTEÚDO -->
 <section class="content">
-    <h1><div class="icon" style="background-image: url('../media/images/icons/icons8-Circled Play.png'); min-height: 40pt"></div></div>Mídia</h1>
 
-    <h2 id="links">Links</h2>
+    <div class="icon iconTitle" style="background-image: url('../media/images/icons/icons8-Circled Play.png'); min-height: 40pt">
+        <h2>Mídia</h2>
+    </div>
+
+    <h3 id="links">Links</h3>
     <div class="flexContent">
 
         <!-- LINK -->
@@ -104,13 +106,13 @@
     
     
     
-    <h2 id="video">Video</h2>
+    <h3 id="video">Video</h3>
     <div class="flexContent">
 
         <!-- VIDEO -->
         <div class="box type1 linkFormat">
             <div class="completeline">
-                <iframe src="https://www.youtube.com/embed/XiFkyR35v2Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="videobox"></iframe>
+                <iframe src="https://www.youtube.com/embed/XiFkyR35v2Y?rel=0&amp;showinfo=0" allowfullscreen class="videobox"></iframe>
                 <strong>Slow Loris Attack - Computerphile</strong>
             </div>
             <br>
@@ -123,7 +125,7 @@
         <!-- VIDEO -->
         <div class="box type1 linkFormat">
             <div class="completeline">
-                <iframe src="https://www.youtube.com/embed/-csXdj4WVwA?rel=0" frameborder="0" allowfullscreen class="videobox" ></iframe>
+                <iframe src="https://www.youtube.com/embed/-csXdj4WVwA?rel=0" allowfullscreen class="videobox" ></iframe>
                 <strong>Where HTML beats C? - Computerphile</strong>
             </div>
             <br>
@@ -136,7 +138,7 @@
         <!-- VIDEO -->
         <div class="box type1 linkFormat">
             <div class="completeline">
-                <iframe src="https://www.youtube.com/embed/L5l9lSnNMxg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="videobox"></iframe>
+                <iframe src="https://www.youtube.com/embed/L5l9lSnNMxg?rel=0&amp;showinfo=0" allowfullscreen class="videobox"></iframe>
                 <strong>Cracking Websites with Cross Site Scripting - Computerphile</strong>
             </div>
             <br>
@@ -148,7 +150,7 @@
     </div>
     
     
-    <h2 id="audio">Audio</h2>
+    <h3 id="audio">Audio</h3>
 
     <div class="flexContent">
 
@@ -218,7 +220,7 @@
 
 </section>
 
-<section class="sidebar css2">
+<div class="sidebar css2">
     <nav class="sideMenu">
         <ul>
 
@@ -250,10 +252,10 @@
         </ul>
     </nav>
 
-</section>
+</div>
 
 
-<!-- FOOTET -->
+<!-- FOOTER -->
 <footer class="footer centralizedText">
     <p>
         Website desenvolvido para a disciplina de Programação Web<br>

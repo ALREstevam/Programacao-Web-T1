@@ -3,8 +3,14 @@ body{
     font-family: "Roboto", Arial, sans-serif;
     min-height: 100vh;
     height: 100vh;
+    font-size: 14pt;
 }
 
+.css1{
+    visibility: hidden;
+}
+
+/*================ TITLES INSIDE SECTIONS ============*/
 section h1{
     font-size: 40pt;
 }
@@ -17,9 +23,16 @@ section h3{
     font-size: 25pt;
 }
 
+h4{
+    font-size: 23pt;
+    font-style: italic;
+    border-left: #2b292a 5px solid;
+    padding-left: 20px;
+    margin-left: 20px;
+}
 
 
-/*Button swap CSS*/
+/*================ BUTTON SWAP CSS ============*/
 .swapBg{
     margin-top: 20px;
     margin-right: 5px;
@@ -44,7 +57,7 @@ section h3{
     background-color: rgba(77, 226, 255, 0.82);
 }
 
-/*Sidebar*/
+/*================ SIDEBAR ============*/
 .sidebar {
     display: block;
     float: right;
@@ -57,9 +70,8 @@ section h3{
 }
 
 .sidebar .sideMenu{
-
-    position: fixed;
     border-left: gray solid 3px;
+    margin-top: 40%;
 }
 
 .sidebar .sideMenu ul li a:active{
@@ -93,7 +105,21 @@ section h3{
     border-left: 3px solid black;
 }
 
-/*Top menu*/
+/*================ TOP MENU ============*/
+header{
+    margin-top: -45px;
+    width: 100%;
+    display: block;
+    background: url("../../media/images/pictures/bg4.jpg") left;
+}
+
+header h1{
+    text-align: center;
+    width: 70%;
+    display: table;
+    font-size: 50pt;
+}
+
 .menu ul li{
     list-style-type: none;
     /*border-right: solid 1px #363d7c;*/
@@ -110,17 +136,6 @@ section h3{
     border-left: solid 1px #363d7c;
 }
 
-hr .vertical{
-    width: 0;
-    height: 100%;
-}
-
-header h1{
-    text-align: center;
-    width: 70%;
-    display: table;
-    font-size: 50pt;
-}
 
 .menu{
     display: flex;
@@ -129,16 +144,10 @@ header h1{
 }
 
 .menu ul li{
-    display: inline;
-
-    /*trocar por padding: apx bpx cpx dpx;*/
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-
-    font-size: 16pt;
-    transition: background-color 0.4s;
+    display:inline;
+    font-size:16pt;
+    transition:background-color .4s;
+    padding:5px 25px
 }
 
 .menu ul li:hover{
@@ -149,18 +158,23 @@ header h1{
     width: 100%;
 }
 
+/*================ CONTENT ============*/
+.content{
+    float: left;
+    width: 70%;
+    margin-left: 5%;
+    background-color: rgba(249, 249, 249, 0.15);
+}
 
-header{
-    margin-top: -45px;
-    width: 100%;
+/*================ FOOTER ============*/
+.footer{
+    position: relative;
     display: block;
-    background: url("../../media/images/pictures/bg4.jpg") left;
+    float: left;
+    background-color: cornflowerblue;
 }
 
-.css1{
-    visibility: hidden;
-}
-
+/*================ ICON ============*/
 .icon{
     min-height: 100px;
     min-width: 100px;
@@ -171,22 +185,7 @@ header{
     display: block;
 }
 
-
-
-.content{
-    float: left;
-    width: 70%;
-    margin-left: 5%;
-    background-color: rgba(249, 249, 249, 0.15);
-}
-
-.footer{
-    position: relative;
-    display: block;
-    float: left;
-    background-color: cornflowerblue;
-}
-
+/*================ PERSON ============*/
 .personIcon{
     border-radius: 100%;
     border: solid 5px rgba(112, 106, 113, 0.53);
@@ -213,6 +212,7 @@ header{
     flex-wrap: nowrap !important;
 }
 
+/*================ LINKS ============*/
 .linkFormat{
     background-color: whitesmoke;
     box-shadow: rgba(3, 0, 52, 0.48) 0 0 10px;
@@ -230,30 +230,33 @@ header{
     text-decoration: underline;
 }
 
+.box .completeline{
+    width: 100%;
+}
+
+/*================ VIDEO ============*/
 .videobox{
     width: 100%;
     min-height: 400px;
 }
 
+/*================ AUDIO ============*/
 .box audio{
     width: 100%;
 }
-
-.box .completeline{
-    width: 100%;
-}
-
+/*================ COOLLIST ============*/
 ul.coollist a{
-    color: #1e90ff;
+    color: #FF634D;
     text-decoration: none;
 }
 
 ul.coollist a:hover{
-    background-color: rgba(177, 247, 255, 0.49);
+    background-color: rgba(255, 100, 72, 0.43);
     text-decoration: underline;
 }
 
-h1 code, h2 code, h3 code{
+/*================ CODE ============*/
+h1 code, h2 code, h3 code, h4 code{
     background-color: rgba(248, 241, 243, 1);
     border: solid 1px #c6254e;
     border-radius: 5px;

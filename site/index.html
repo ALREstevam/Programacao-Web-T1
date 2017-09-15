@@ -13,7 +13,7 @@
 
     <link type="text/css" rel="stylesheet" href="styles/tests/testStylesheet.css">
     <link type="text/css" rel="stylesheet" href="styles/common/commonStylesheet.css">
-    <link type="text/css" rel="stylesheet" href="" id="swappableCss">
+    <link type="text/css" rel="stylesheet" href="styles/common/commonStylesheet.css" id="swappableCss">
 
     <script>
         setSheetList(['styles/style1/css1.css','styles/style2/css2.css']);
@@ -40,7 +40,7 @@
     </div>
 
     <!-- MENU -->
-    <section class="menu">
+    <div class="menu">
         <!-- MENU -->
         <nav class="menu">
             <ul>
@@ -50,28 +50,43 @@
                 <li><a href="html/concepts.html">Conceitos utilizados</a></li>
             </ul>
         </nav>
-    </section>
+    </div>
 </header>
 
 <!-- CONTEÚDO -->
 <section class="content">
-    <h1><div class="icon" style="background-image: url('media/images/icons/icons8-Center of Gravity.png'); min-height: 40pt"></div>Objetivos</h1>
-    <ul>
-        <li>
-            Aprender as melhores formas de criação de páginas web usando HTML e CSS.
-        </li>
-        <li>
-            Aprender a desenvolver scripts para execução em servidores web.
-        </li>
-        <li>
-            Aprender a projetar e gerenciar projetos de aplicações web.
-        </li>
-        <li>
-            Utilizar a arquitetura cliente-servidor em sistemas web.
-        </li>
-    </ul>
+    <div class="icon iconTitle yellow" style="background-image: url('media/images/icons/icons8-Center of Gravity.png'); min-height: 40pt;">
+        <h2 class="yellow">Objetivos</h2>
+    </div>
 
-    <h1><div class="icon" style="background-image: url('media/images/icons/icons8-User Group Man Woman.png'); min-height: 40pt"></div>Integrantes</h1>
+
+
+
+    <div class="red">
+        <ul style="display: block">
+            <li>
+                Aprender as melhores formas de criação de páginas web usando HTML e CSS.
+            </li>
+            <li>
+                Aprender a desenvolver scripts para execução em servidores web.
+            </li>
+            <li>
+                Aprender a projetar e gerenciar projetos de aplicações web.
+            </li>
+            <li>
+                Utilizar a arquitetura cliente-servidor em sistemas web.
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="icon iconTitle" style="background-image: url('media/images/icons/icons8-User Group Man Woman.png'); min-height: 40pt">
+        <h2>Integrantes</h2>
+    </div>
+
+
+
     <div class="flexContent flexNoWrap">
 
         <!-- PESSOA -->
@@ -135,7 +150,10 @@
         </div>
     </div>
 
-    <h1><div class="icon" style="background-image: url('media/images/icons/icons8-Message.png'); min-height: 40pt"></div>Contato</h1>
+    <div class="icon iconTitle" style="background-image: url('media/images/icons/icons8-Message.png'); min-height: 40pt">
+        <h2>Contato</h2>
+    </div>
+
     <p>
         O grupo pode ser contatado através do e-mail:
         <a href="mailto:grupoxablau2017@gmail.com" target="_top">grupoxablau2017@gmail.com</a>
@@ -143,7 +161,7 @@
 
 </section>
 
-<section class="sidebar css2">
+<div class="sidebar css2">
     <nav class="sideMenu">
         <ul>
 
@@ -162,7 +180,7 @@
                 <ul>
                     <li><a href="html/media.html#audio">Audio</a></li>
                     <li><a href="html/media.html#video">Video</a></li>
-                    <li><a href="html/media.html#css">Links</a></li>
+                    <li><a href="html/media.html#links">Links</a></li>
                 </ul>
             </li>
             <li><a href="html/concepts.html">Conceitos utilizados</a>
@@ -175,7 +193,7 @@
         </ul>
     </nav>
 
-</section>
+</div>
 
 
 <!-- FOOTET -->
