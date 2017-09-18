@@ -2,41 +2,40 @@ var sheetList = [];
 var sheetSize = 0;
 
 function setSheetList(infoArr) {
+	console.log("CALLED: setSheetList(infoArr: "+infoArr+")");
     sheetList = infoArr;
     sheetSize = sheetList.length;
 }
 
-function calcNextElem(total, current) {
-    //var rsp = ((current + 1) % total);
-    //console.log("("+current +"+1) % "+total+" = "+rsp);
+function calcNextElem() {
+	console.log("CALLED: calcNextElem()");
+	console.log("\tFUNC_MESSAGE: current style index is: " + localStorage.getItem('swap'));
+	var ret = (parseInt(localStorage.getItem('swap')) + 1)%2;
+	console.log("\tFUNC_MESSAGE: next style index is: " + ret);
 
-    if(current == 0){
-        return 1;
-    }else{
-        return 0;
-    }
-
-    //return rsp;
+	return ret;
 }
 
 function nextSheet(linkId){
-    var current = localStorage.getItem('swap');
-
-    var nextelem = calcNextElem(sheetSize, current);
+	console.log("CALLED: nextSheet(linkId: "+linkId+")");
+    var nextelem = calcNextElem();
     setSheet(linkId, nextelem);
-    console.log('current: '+current+', next: '+ nextelem+', size: '+sheetSize);
 }
 
 function setSheet(linkId, index) {
+	console.log("CALLED: setSheet(linkId: "+linkId+", index: "+index+")");
     localStorage.setItem('swap', index);
     document.getElementById(linkId).href = sheetList[index];
 }
 
 function restoreLastSheet(linkId) {
+	console.log("CALLED: restoreLastSheet(linkId: "+linkId+")");
     if (!localStorage.getItem('swap')) {
+		console.log("\tFUNC_MESSAGE: No style selected: defining style as default.");
         localStorage.setItem('swap', 0);
         document.getElementById(linkId).href = sheetList[0];
     } else {
+		console.log("\tFUNC_MESSAGE: Old style choice detected: restoring.")
         document.getElementById(linkId).href = sheetList[localStorage.getItem('swap')];
     }
 }
