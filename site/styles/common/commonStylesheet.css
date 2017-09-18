@@ -140,6 +140,16 @@ pre.code {
     background-color: rgba(43, 43, 43, 1);
     padding: 30px;
 }
+
+p code{
+	font-family: "Courier New", Serif, Monospace;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 /*================ COOL LIST ============*/
 
 ul.coollist > li {

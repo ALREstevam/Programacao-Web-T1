@@ -70,18 +70,18 @@
 &lt;/head&gt;
             </code>
         </pre>
-        <p>&nbsp;A tag &lt;link&gt; pode ser utilizada para importar uma imagem de &iacute;cone para a p&aacute;gina, deve ser inserido no header.</p>
+        <p>A tag <code>&lt;link&gt;</code> pode ser utilizada para importar uma imagem de ícone para a página, deve ser inserido no header.</p>
 
         <hr/>
 
-        <h4>Importando um arquivo de código-fonte Javascript externo</h4>
+        <h4>Importando um arquivo de código-fonte JavaScript externo</h4>
             <pre class="code">
                 <code>
 &lt;script src="../js/swapCss.js"&gt;
 &lt;/script&gt;
                 </code>
             </pre>
-    <p>Devem ser utilizadas as tags &lt;script&gt;&lt;/script&gt; definindo o caminho para o arquivo no atributo src=&rdquo;&rdquo;</p>
+    <p>Devem ser utilizadas as tags <code>&lt;script&gt;&lt;/script&gt;</code> definindo o caminho para o arquivo no atributo <code>src=""</code></p>
     <hr/>
 
     <h4>Usando as tags <code>pre</code> e <code>code</code></h4>
@@ -111,7 +111,7 @@
     <h4>Inserindo um vídeo do YouTube</h4>
     <pre class="code">
         <code>
-&lt;iframe src="https://www.youtube.com/embed/-csXdj4WVwA?rel=0"<wbr> frameborder="0" allowfullscreen <wbr> class="videobox" &gt;<wbr>&lt;/iframe&gt;
+&lt;iframe src="https://www.youtube.com/embed/-csXdj4WVwA?rel=0"<br> frameborder="0" allowfullscreen <wbr> class="videobox" &gt;<wbr>&lt;/iframe&gt;
         </code>
     </pre>
     <p>Um v&iacute;deo pode ser inserido utilizando a tag <code>&lt;iframe&gt;&lt;/iframe&gt;</code> com o atributo <code>src=&rdquo;&rdquo;</code> seguindo o formato<code> https://www.youtube.com/embed/&lt;c&oacute;digo do v&iacute;deo&gt;?rel=0</code></p>
@@ -126,9 +126,23 @@
         </code>
     </pre>
     <p>
-        Usa as tags <code>&lt;audio&gt;&lt;/audio&gt;</code> para definir que o arquivo no <code>src=""</code> da tag <code>&lt;source&gt;</code> deve ser tocado.
+        Usa as tags <code>&lt;audio&gt;&lt;/audio&gt;</code> para definir que o arquivo no <code>src=""</code> da tag <code>&lt;source&gt;</code> deve ser carregado com o player padrão do HTML5.
     </p>
     <hr/>
+	
+	<h4>Player de vídeo do HTML5</h4>
+    <pre class="code">
+        <code>
+&lt;video controls&gt;
+    &lt;source src="file.webm" type="video/webm"&gt; &lt;!-- Aceita formatos webm, mp4 e ogg --&gt;
+&lt;/video&gt;
+        </code>
+    </pre>
+    <p>
+        Usa as tags <code>&lt;video&gt;&lt;/video&gt;</code> para definir que o arquivo no <code>src=""</code> da tag <code>&lt;source&gt;</code> deve ser carregado com o player padrão do HTML5.
+    </p>
+    <hr/>
+
 
     <h3 id="css">CSS</h3>
     <h4>Atributo <code>position</code></h4>
