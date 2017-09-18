@@ -152,13 +152,35 @@ header hr {
     justify-content: center;
     flex-grow: 0;
 }
+
+
+div.flexContent div.typePerson {
+    box-shadow: rgba(0, 120, 1, 0.69) 0 0 10px;
+    justify-content: center;
+    min-width: 130px;
+    width: 8%;
+    max-width: 15%;
+
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+
+    transition: width 1s, max-width 1s, font-size 3s;
+}
+
+div.flexContent div.typePerson:hover{
+    box-shadow: rgba(49, 50, 52, 0.98) 0 0 20px;
+    background-color: rgba(0, 217, 9, 0.4);
+    width: 20%;
+    max-width: 100%;
+    font-size: 1.1em;
+}
+
 .flexContent.typePerson {
     box-shadow: rgba(3, 0, 52, 0.56) 0 0 10px;
 }
-.flexNoWrap {
-    flex-wrap: nowrap !important;
-}
 
+/*==================== LINKS ===================*/
 .linkFormat {
     background-color: #272727;
     box-shadow: rgba(3, 0, 52, 0.56) 0 0 2px;
