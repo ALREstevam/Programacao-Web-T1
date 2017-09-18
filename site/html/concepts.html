@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Programação Web</title>
+
+    <link rel="shortcut icon" href="../media/images/icons/favicon1.ico" type="image/x-icon">
+    <link rel="icon" href="../media/images/icons/favicon1.ico" type="image/x-icon">
+
+    <script src="../js/swapCss.js">
+    </script>
+
+
+    <link type="text/css" rel="stylesheet" href="../styles/tests/testStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../styles/common/commonStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../styles/common/commonStylesheet.css" id="swappableCss">
+
+    <script>
+        setSheetList(['../styles/style1/css1.css','../styles/style2/css2.css']);
+        restoreLastSheet('swappableCss');
+    </script>
+
+
+</head>
+<body class="resetBody">
+
+<!-- CABEÇALHO -->
+<header>
+
+    <div class="swapBg" onclick="nextSheet('swappableCss');">
+        <div class="icon" style="background-image: url('../media/images/icons/icons8-Rotate Right-96.png')"><span>Trocar CSS</span></div>
+    </div>
+
+    <div class="icon css2" style="background-image: url('../media/images/icons/logotipo_ft.png')"></div>
+    <div class="icon css2" style="background-image: url('../media/images/icons/logo_unicamp.svg')"></div>
+
+    <div>
+        <h1>Grupo Xablau- SI401B</h1>
+    </div>
+
+    <!-- MENU -->
+    <div class="menu">
+        <!-- MENU -->
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Página inicial</a></li>
+                <li><a href="group.html">Grupo</a></li>
+                <li><a href="media.html">Mídia</a></li>
+                <li><a href="concepts.html">Conceitos utilizados</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- CONTEÚDO -->
+<section class="content">
+    <div class="icon iconTitle" style="background-image: url('../media/images/icons/icons8-Code.png'); min-height: 40pt">
+        <h2>Conceitos utilizados e não abordados na disciplina</h2>
+    </div>
+    <h3 id="html">HTML</h3>
+
+        <h4>Adicionando um ícone à página</h4>
+        <pre class="code">
+            <code>
+&lt;head&gt;
+...
+&lt;link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"&gt;
+&lt;link rel="icon" href="/favicon.ico" type="image/x-icon"&gt;
+...
+&lt;/head&gt;
+            </code>
+        </pre>
+        <p>&nbsp;A tag &lt;link&gt; pode ser utilizada para importar uma imagem de &iacute;cone para a p&aacute;gina, deve ser inserido no header.</p>
+
+        <hr/>
+
+        <h4>Importando um arquivo de código-fonte Javascript externo</h4>
+            <pre class="code">
+                <code>
+&lt;script src="../js/swapCss.js"&gt;
+&lt;/script&gt;
+                </code>
+            </pre>
+    <p>Devem ser utilizadas as tags &lt;script&gt;&lt;/script&gt; definindo o caminho para o arquivo no atributo src=&rdquo;&rdquo;</p>
+    <hr/>
+
+    <h4>Usando as tags <code>pre</code> e <code>code</code></h4>
+            <pre class="code">
+                <code>
+&lt;pre&gt;
+    &lt;code&gt;
+        &amp;lt;script src="../js/swapCss.js"&amp;gt;
+        &amp;lt;/script&amp;gt;
+    &lt;/code&gt;
+&lt;/pre&gt;
+                </code>
+            </pre>
+    <p>A tag <code>&lt;pre&gt;&lt;/pre&gt;</code> é utilizada para definir um texto pré-formatado. Espaços e quebras de linha serão mantidos na página da mesma forma como estão no documento HTML.</p>
+    <p>A tag <code>&lt;code&gt;&lt;/code&gt;</code> é utilizada para indicar que seu conteúdo é um código em alguma linguagem de programaçãoo.</p>
+    <hr/>
+
+    <h4>Atribuindo m&uacute;ltiplas classes a um elemento</h4>
+    <pre class="code">
+        <code>
+&lt;div class="box type5 linkFormat"&gt;
+        </code>
+    </pre>
+    <p>Um elemento pode receber várias classes separando-as por espaço.</p>
+    <hr/>
+
+    <h4>Inserindo um vídeo do YouTube</h4>
+    <pre class="code">
+        <code>
+&lt;iframe src="https://www.youtube.com/embed/-csXdj4WVwA?rel=0"<wbr> frameborder="0" allowfullscreen <wbr> class="videobox" &gt;<wbr>&lt;/iframe&gt;
+        </code>
+    </pre>
+    <p>Um v&iacute;deo pode ser inserido utilizando a tag <code>&lt;iframe&gt;&lt;/iframe&gt;</code> com o atributo <code>src=&rdquo;&rdquo;</code> seguindo o formato<code> https://www.youtube.com/embed/&lt;c&oacute;digo do v&iacute;deo&gt;?rel=0</code></p>
+    <hr>
+
+    <h4>Player de áudio do HTML5</h4>
+    <pre class="code">
+        <code>
+&lt;audio controls&gt;
+    &lt;source src="file.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+        </code>
+    </pre>
+    <p>
+        Usa as tags <code>&lt;audio&gt;&lt;/audio&gt;</code> para definir que o arquivo no <code>src=""</code> da tag <code>&lt;source&gt;</code> deve ser tocado.
+    </p>
+    <hr/>
+
+    <h3 id="css">CSS</h3>
+    <h4>Atributo <code>position</code></h4>
+    <pre class="code">
+        <code>
+position: fixed;
+position: absolute;
+        </code>
+    </pre>
+    <p>
+        Quando aplicado a alguma tag fazem o respectivo elemento ficar fixo na tela (o conteúdo rola por baixo da div) e fazer a posição do elemento ser calculada de acordo com a página como um todo e não de acordo com o elemento em que está contido, respectivamente.
+    </p>
+    <hr/>
+
+    <h4>Atributo <code>border-radius</code></h4>
+    <pre class="code">
+        <code>
+border-radius: 55px;
+border-radius: 100%;
+        </code>
+    </pre>
+    <p>
+        Faz com que as bordas do elemento fiquem arredondadas.
+    </p>
+    <hr/>
+
+    <h4>Atributo <code>visibility</code></h4>
+    <pre class="code">
+        <code>
+visibility: hidden;
+visibility: visible;
+        </code>
+    </pre>
+    <p>
+        Define se o elemento deve ser exibido na tela ou não.
+    </p>
+    <hr/>
+
+    <h4>Atributo <code>text-shadow</code> e <code>box-shadow</code></h4>
+    <pre class="code">
+        <code>
+text-shadow: #030037 0 0 20px;
+box-shadow: #3ad354 10px 10px 10px;
+
+/*text-shadow: &lt;cor&gt; &lt;deslocamento x&gt; &lt;deslocamento y&gt; &lt;tamanho&gt;;
+box-shadow: &lt;cor&gt; &lt;deslocamento x&gt; &lt;deslocamento y&gt; &lt;tamanho&gt;;*/
+        </code>
+    </pre>
+    <p>
+        Definem uma sombra para um texto e qualquer elemento que se comporte como uma caixa, respectivamente.
+    </p>
+    <hr/>
+
+    <h4>Definição de cor com <code>RGBA</code></h4>
+    <pre class="code">
+        <code>
+background-color: rgba(77, 226, 255, 0.82);
+color: rgba(77, 226, 255, 0.82);
+
+/*rgba(&lt;RED&gt;, &lt;GREEN&gt;, &lt;BLUE&gt;, &lt;ALPHA&gt;);*/
+        </code>
+    </pre>
+    <p>
+        Permitem definir a cor de algum elemento como uma combinação do tipo RGB <em>Red, Green</em> e <em>Blue</em> com um valor entre 0 e 255 e um campo <em>Alpha</em>, um número real que varia entre 0 e 1 indicando o quão transparente a cor deve ser.
+    </p>
+    <hr/>
+
+    <h4>Atributo <code>cursor</code></h4>
+    <pre class="code">
+        <code>
+cursor: pointer;
+cursor: help;
+        </code>
+    </pre>
+    <p>
+        Define qual imagem do ponteiro do mouse deve ser utilizada quando o ponteiro estiver sob o elemento.
+    </p>
+    <hr/>
+
+    <h4>Atributo <code>display</code></h4>
+    <pre class="code">
+        <code>
+display: table;
+display: block;
+display: flex;
+        </code>
+    </pre>
+    <p>
+        Especifica qual tipo de caixa deve ser utilzada no elemento HTML.
+    </p>
+    <hr/>
+
+    <h3 id="other">Outros - Javascript</h3>
+
+    <h4>Comando <code>console.log([...]);</code></h4>
+    <pre class="code">
+        <code>
+console.log(&lt;message&gt;);
+        </code>
+    </pre>
+    <p>
+        Mostra uma mensagem no console do Javascript.
+    </p>
+    <hr/>
+
+    <h4><code>localStorage</code></h4>
+    <pre class="code">
+        <code>
+localStorage.setItem('swap', index);
+var current = localStorage.getItem('swap');
+
+//localStorage.setItem(&lt;key&gt;, &lt;value&gt;);
+//var readed = localStorage.getItem(&lt;key&gt;);
+        </code>
+    </pre>
+    <p>
+        Armazena informações no navegador do cliente que persistirão sem uma data de expiração e independentemente da troca de páginas.
+        O armazenamento é feito no esquema chave-valor.
+    </p>
+    <hr/>
+</section>
+
+<div class="sidebar css2">
+    <nav class="sideMenu">
+        <ul>
+
+            <li><a href="../index.html">Página inicial</a></li>
+            <li><a href="group.html">Grupo</a>
+                <ul>
+                    <li><a href="group/andre.html">André</a></li>
+                    <li><a href="group/mayara.html">Mayara</a></li>
+                    <li><a href="group/huanna.html">Huanna</a></li>
+                    <li><a href="group/pedro.html">Pedro</a></li>
+                    <li><a href="group/karen.html">Karen</a></li>
+                </ul>
+            </li>
+
+            <li><a href="media.html">Mídia</a>
+                <ul>
+                    <li><a href="media.html#audio">Audio</a></li>
+                    <li><a href="media.html#video">Video</a></li>
+                    <li><a href="media.html#links">Links</a></li>
+                </ul>
+            </li>
+            <li><a href="concepts.html">Conceitos utilizados</a>
+                <ul>
+                    <li><a href="concepts.html#html">HTML</a></li>
+                    <li><a href="concepts.html#css">CSS</a></li>
+                    <li><a href="concepts.html#other">Outros</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+
+
+<!-- FOOTET -->
+<footer class="footer centralizedText">
+    <p>
+        Website desenvolvido para a disciplina de Programação Web<br>
+        <strong>Contato: </strong><a href="mailto:grupoxablau2017@gmail.com" target="_top">grupoxablau2017@gmail.com</a><br>
+        Projeto no <a href="https://github.com/ALREstevam/Programacao-Web-T1" target="_blank">GitHub</a>
+    </p>
+    <a href="https://icons8.com">Icon pack by Icons8</a>
+</footer>
+
+
+
+
+
+
+</body>
+</html>

@@ -79,16 +79,19 @@ footer.footer{
     display: flex;
     padding: 5px;
     flex-grow: 1;
-    /*border: solid gray 1px;*/
-    /*box-shadow: rgba(0, 0, 0, 0.33) 0 0 5px;*/
 }
 
+.flexContent .type0{
+    min-width: 33%;
+    width: 33%;
+    max-width: 33%;
 
+}
 
 .flexContent .type1{
     /*background-color: lightcoral;*/
     min-width: 15%;
-    max-width: 48%;
+    max-width: 40%;
 }
 
 .flexContent .type2{
@@ -124,6 +127,7 @@ footer.footer{
     width: 100%;
 }
 
+/*================ CLEAR LINK ============*/
 a.clear{
     text-decoration: none;
     color: inherit;
@@ -138,8 +142,53 @@ a.clear:hover{
     text-decoration: underline;
 }
 
-code {
+/*================ CODE AREA ============*/
+.code code {
     font-family: Courier, Monaco, monospace;
+    color: rgb(223, 247, 254);
 }
 
-/**/
+pre.code{
+    background-color: rgba(43, 43, 43, 1);
+    padding: 30px;
+}
+
+/*================ COOL LIST ============*/
+ul.coollist > li{
+    margin-top: 50px;
+}
+
+ul.coollist > li > ul > li {
+    margin-top: 25px;
+}
+
+ul.coollist > li span{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/*================ ICON OF A <h1>, <h2>, ... ============*/
+div.iconTitle{
+    background-position: left center;
+    width: 100%;
+    height: 50pt;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+div.iconTitle h1, div.iconTitle h2,  div.iconTitle h3, div.iconTitle h4{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+/*================ IFRAME ============*/
+iframe{
+    border: none;
+}
+
+
+
