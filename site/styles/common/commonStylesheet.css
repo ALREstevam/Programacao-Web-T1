@@ -17,6 +17,12 @@ maneira a não causar distorções
     min-height: 50px;
     min-width: 50px;
 }
+
+.rounded{
+    border-radius: 100%;
+    border: solid 5px whitesmoke;
+}
+
 /*
 Faz com que o elemento fique centralizado dentro do espaço que se encontra
 */
