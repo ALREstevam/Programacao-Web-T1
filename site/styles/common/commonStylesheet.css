@@ -2,174 +2,170 @@
 Folha de estilos com definição de classes gerais com uso comum
 */
 
-body{
+body {
     height: 100%;
 }
-
 /*
 Faz com que uma div se comporte como um elemento img, mas a imagem será redimencionada de
 maneira a não causar distorções
 */
-.icon{
-    background:center no-repeat url("../../media/images/icons/logotipo_ft.png");
+
+.icon {
+    background: center no-repeat url("../../media/images/icons/logotipo_ft.png");
     background-size: contain;
     display: block;
     min-height: 50px;
     min-width: 50px;
 }
-
 /*
 Faz com que o elemento fique centralizado dentro do espaço que se encontra
 */
-.centralized{
+
+.centralized {
     left: 0;
     right: auto;
     display: block;
 }
-
 /*
 Faz com que o texto fique centralizado dentro do espaço que se encontra
 */
-.centralizedText{
+
+.centralizedText {
     text-align: center;
     width: 100%;
 }
-
 /*Classes para gerenciar o comportamento do negrito e itálico*/
-.bold{
+
+.bold {
     font-weight: bold;
 }
-
-.italic{
+.italic {
     font-style: italic;
 }
-
 /*Classes para remover margem e padding do elemento body*/
-.resetBody{
+
+.resetBody {
     margin: 0;
     padding: 0;
 }
-
 /*Define o tamanho padrão de um h1 dentro de um section como 1.5em*/
-section h1{
+
+section h1 {
     font-size: 1.5em;
 }
+/*Footer*/
 
-/**/
-footer.footer{
+footer.footer {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.menu ul li a{
+.menu ul li a {
     color: inherit;
     text-decoration: none;
 }
-
 /*================ FLEX CONTENT ============*/
-.flexContent{
+
+.flexContent {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-
-.flexContent .box{
+.flexContent .box {
     margin: 10px;
     display: flex;
     padding: 5px;
     flex-grow: 1;
 }
-
-.flexContent .type0{
+.flexContent .type0 {
     min-width: 33%;
     width: 33%;
     max-width: 33%;
-
 }
-
-.flexContent .type1{
+.flexContent .type1 {
     /*background-color: lightcoral;*/
+
     min-width: 15%;
     max-width: 40%;
 }
-
-.flexContent .type2{
+.flexContent .type2 {
     /*background-color: lightgreen;*/
+
     min-width: 15%;
     max-width: 30%;
 }
-
 .flexContent .type3 {
     /*background-color: lightblue;*/
+
     min-width: 2%;
     max-width: 20%;
 }
-
-.flexContent .type4{
+.flexContent .type4 {
     min-width: 90%;
 }
-
-.flexContent .box img{
+.flexContent .box img {
     width: 50%;
     height: auto;
 }
-
-.flexContent .box .ytvideo{
+.flexContent .box .ytvideo {
     width: 100%;
     min-height: 350px;
     display: block;
     margin: 0 auto;
 }
-
-.flexContent .tblDiv{
+.flexContent .tblDiv {
     display: table;
     width: 100%;
 }
-
 /*================ CLEAR LINK ============*/
-a.clear{
+
+a.clear {
     text-decoration: none;
     color: inherit;
 }
-
-a.clear:after{
+a.clear:after {
     text-decoration: none;
     color: inherit;
 }
-
-a.clear:hover{
+a.clear:hover {
     text-decoration: underline;
 }
-
 /*================ CODE AREA ============*/
+
 .code code {
     font-family: Courier, Monaco, monospace;
     color: rgb(223, 247, 254);
 }
-
-pre.code{
+pre.code {
     background-color: rgba(43, 43, 43, 1);
     padding: 30px;
 }
 
-/*================ COOL LIST ============*/
-ul.coollist > li{
-    margin-top: 50px;
+p code{
+	font-family: "Courier New", Serif, Monospace;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
+/*================ COOL LIST ============*/
+
+ul.coollist > li {
+    margin-top: 50px;
+}
 ul.coollist > li > ul > li {
     margin-top: 25px;
 }
-
-ul.coollist > li span{
+ul.coollist > li span {
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.3em;
 }
-
 /*================ ICON OF A <h1>, <h2>, ... ============*/
-div.iconTitle{
+
+div.iconTitle {
     background-position: left center;
     width: 100%;
     height: 50pt;
@@ -177,18 +173,16 @@ div.iconTitle{
     margin-bottom: 30px;
     display: block;
 }
-
-
-div.iconTitle h1, div.iconTitle h2,  div.iconTitle h3, div.iconTitle h4{
+div.iconTitle h1,
+div.iconTitle h2,
+div.iconTitle h3,
+div.iconTitle h4 {
     width: 80%;
     margin-left: 100px;
     margin-top: 0;
 }
-
 /*================ IFRAME ============*/
-iframe{
+
+iframe {
     border: none;
 }
-
-
-

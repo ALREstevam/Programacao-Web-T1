@@ -2,37 +2,32 @@
 Definição de classes para agilizar os testes
 */
 
-.show{
+.show {
     border: red solid 3px;
     min-height: 50px;
     min-width: 50px;
     background-color: brown;
 }
-
-.red{
+.red {
     border: solid 1px darkred;
     background-color: lightcoral;
     color: darkred;
 }
-
-.green{
+.green {
     border: solid 1px darkgreen;
     background-color: lightgreen;
     color: darkgreen;
 }
-
-.blue{
+.blue {
     border: solid 1px darkblue;
     background-color: lightblue;
     color: darkblue;
 }
-
-.yellow{
+.yellow {
     border: solid 1px darkgoldenrod;
     background-color: lightyellow;
     color: darkgoldenrod;
 }
-
-.border{
+.border {
     border: solid black 1px;
 }
