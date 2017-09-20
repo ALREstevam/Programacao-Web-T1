@@ -202,8 +202,7 @@ div.flexContent div.typePerson:hover{
 
 .linkFormat {
     background-color: whitesmoke;
-    box-shadow: rgba(3, 0, 52, 0.48) 0 0 10px;
-    border: solid 2px #bbb4b7;
+    box-shadow: rgba(3, 0, 52, 0.3) 0 2px 10px;
     flex-wrap: wrap;
     display: flex;
 }
