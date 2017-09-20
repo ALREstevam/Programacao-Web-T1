@@ -7,6 +7,8 @@ body {
 }
 .css1 {
     visibility: hidden;
+    width: 0;
+    height: 0;
 }
 /*================ TITLES INSIDE SECTIONS ============*/
 
@@ -144,6 +146,7 @@ header h1 {
 /*================ FOOTER ============*/
 
 .footer {
+    margin-top: 500px;
     position: relative;
     display: block;
     float: left;
@@ -164,7 +167,6 @@ header h1 {
 
 .personIcon {
     border-radius: 100%;
-    border: solid 5px rgba(112, 106, 113, 0.53);
     background-color: lightblue;
     transition: border 0.2s, background-color 0.2s;
 }
