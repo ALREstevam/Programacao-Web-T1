@@ -4,11 +4,17 @@ body {
     color: whitesmoke;
     font-family: "Consolas", Times serif;
     font-size: 14pt;
-    text-shadow: rgba(3, 0, 55, 0.91) 0 0 10px;
+
 }
 
 .css2 {
     visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+p, h1, h2, h3, h4, a{
+    text-shadow: rgba(3, 0, 55, 0.91) 0 0 10px;
 }
 
 
@@ -130,6 +136,7 @@ header hr {
 
 /*================ FOOTER ============*/
 .footer {
+    margin-top: 300px;
     position: relative;
     display: block;
     float: left;
@@ -139,7 +146,6 @@ header hr {
 /*================ PERSON ICON ============*/
 .personIcon {
     border-radius: 100%;
-    border: solid 5px rgba(112, 106, 113, 0.53);
     background-color: rgba(28, 247, 99, 0.64);
     transition: border 0.2s, background-color 0.2s;
 }
@@ -171,13 +177,17 @@ div.flexContent div.typePerson {
 div.flexContent div.typePerson:hover{
     box-shadow: rgba(49, 50, 52, 0.98) 0 0 20px;
     background-color: rgba(0, 217, 9, 0.4);
-    width: 20%;
-    max-width: 100%;
+    /*width: 20%;
+    max-width: 100%;*/
     font-size: 1.1em;
 }
 
 .flexContent.typePerson {
     box-shadow: rgba(3, 0, 52, 0.56) 0 0 10px;
+}
+
+.personOutBox{
+    height: 500px;
 }
 
 /*==================== LINKS ===================*/
@@ -247,5 +257,11 @@ pre.code {
 }
 
 p code{
-	border-color: whitesmoke;
+	border-color: #c9254e;
+    color: #c9254e;
+    background-color: #f8f1f3;
+    text-shadow: none;
+    margin: 5px;
+    font-size: 0.9em;
+    line-height: 1.6em;
 }
