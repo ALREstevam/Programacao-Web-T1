@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!--<meta charset="UTF-8">-->
+    <title>Programação Web</title>
+
+    <link rel="shortcut icon" href="../../media/images/icons/favicon1.ico" type="image/x-icon">
+    <link rel="icon" href="../../media/images/icons/favicon1.ico" type="image/x-icon">
+
+    <script src="../../js/swapCss.js">
+    </script>
+
+
+    <link type="text/css" rel="stylesheet" href="../../styles/tests/testStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../../styles/common/commonStylesheet.css">
+    <link type="text/css" rel="stylesheet" href="../../styles/common/commonStylesheet.css" id="swappableCss">
+
+    <script>
+        setSheetList(['../../styles/style1/css1.css','../../styles/style2/css2.css']);
+        restoreLastSheet('swappableCss');
+    </script>
+
+</head>
+<body class="resetBody">
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <div class="swapBg" onclick="nextSheet('swappableCss');">
+            <div class="icon" style="background-image: url('../../media/images/icons/icons8-Rotate Right-96.png')"><span>Trocar CSS</span></div>
+        </div>
+
+        <div class="icon css2" style="background-image: url('../../media/images/icons/logotipo_ft.png')"></div>
+        <div class="icon css2" style="background-image: url('../../media/images/icons/logo_unicamp.svg')"></div>
+
+        <div>
+            <h1>Grupo Xablau- SI401B</h1>
+        </div>
+
+        <!-- MENU -->
+        <div class="menu">
+            <!-- MENU -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="../../index.html">Página inicial</a></li>
+                    <li><a href="../group.html">Grupo</a></li>
+                    <li><a href="../media.html">Mídia</a></li>
+                    <li><a href="../concepts.html">Conceitos utilizados</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- CONTEÚDO -->
+    <section class="content">
+        <div class="icon rounded" style="background-image: url('../../media/images/icons/23389143.png')"></div>
+        <h2>Pedro Artico Rodrigues</h2>
+
+        <h3>Biografia</h3>
+        <p style="text-align:justify">Pedro Artico Rodrigues nasceu em 06 de novembro de 1997 na cidade de Campinas.
+        Atualmente é aluno do curso de Sistemas de Informação na Universidade Estadual de Campinas. Está cursando o 4°Semestre. Suas experiências e interesses incluem análise e projeto de software,
+        engenharia de software, programação para web e Governança de TI.
+        Quanto à vida pessoal, gosta de música clássica, jogos de vídeo game, filmes de terror, séries, 
+        literatura inglesa, teatro e poesia.</p>
+
+        <h3>Contato</h3>
+        <p><strong>E-mail de contato: </strong><a href="mailto:p185545@g.unicamp.br">p185545@g.unicamp.br</a></p>
+        
+        <h3>Currículo</h3>
+        <p><strong>Idiomas: </strong><br>Português: Nativo;<br>Inglês: Intermediário</p>
+        <p><strong>Ensino Médio (2013-2015):</strong> E.E Dom João Nery;</p>
+        <p><strong>Trabalho de Conclusão de Curso:</strong> “Um estudo aprofundado sobre os analíticos anteriores de Aristóteles”</p>
+        <p><strong>Graduação (2016-):</strong> Faculdade de Tecnologia da Unicamp (Limeira)- Bacharelado em Sistemas de Informação;</p>
+
+        <h3>Participação em palestras e cursos:</h3>
+        <p><strong>Palestra: </strong><br>Superar e atingir metas (2016)</p>
+        <p><strong>Minicurso:</strong><br> SMD (2016)</p>
+        <p><strong>Palestra:</strong><br>Prática no Desenvolvimento de Web APIs (2016)</p>
+        <p><strong>Minicurso:</strong><br> Programação com foco em jogos para iniciantes (2016)</p>
+        <p><strong>Palestra:</strong><br> Tecnologia do veículo conectado, IoT automotivo: visão sustentável (2016)</p>
+        <p><strong>Palestra:</strong><br> Projecta - Módulos de dinâmica e entrevistas (2016)</p>
+
+        <h3>Trabalhos realizados</h3>
+
+        <ul class="coollist">
+                <li><span>Primeiro semestre de 2017:</span>
+                <ul>
+                    <li>Projeto: <strong>Agenda pessoal no estilo kanban (em C#)</strong> <em>(para a disciplina de Engenharia de Software II)</em>: [<a href="https://github.com/ALREstevam/SI304B-Projeto-Agenda-Engenharia-de-Software-II" target="_blank">Repositório no GitHub</a>]</li>
+                </ul>
+                <ul>
+                    <li>Projeto: <strong>Sistema para Gerenciamento de Cinemas </strong> <em>(para a disciplina de Programação Orientada e Objetos I): </em><br />&nbsp;[<a href="https://github.com/ALREstevam/Projeto-Gerenciador-Cinema-Programacao-Orientada-a-Objetos-I" target="_blank">Repositório no GitHub</a>]</li>
+                </ul>
+            </li>
+            <li>
+                <span>Segundo semestre de 2017:</span>
+                <ul>
+                    <li>Projeto: <strong>Gerenciamento de visita a clientes para vidraçaria (em Java)</strong> <em>(para a disciplina de Programação Orientada a Objetos II): </em><br />&nbsp;[<a href="https://github.com/ALREstevam/POOII-Gerenc-Visitas-Vidracaria" target="_blank">Repositório no GitHub</a>]</li>
+                    <li>Projeto: <strong>Site para grupo de estudantes (HTML5, CSS3 e Javascript)</strong> <em>(para a disciplina de Programação para a Web): </em><br />&nbsp;[<a href="https://github.com/ALREstevam/Programacao-Web-T1" target="_blank">Repositório no GitHub</a>]</li>
+                </ul>
+            </li>
+        </ul>
+
+    </section>
+
+    <div class="sidebar css2">
+        <nav class="sideMenu">
+            <ul>
+
+                <li><a href="../../index.html">Página inicial</a></li>
+                <li>
+                    <a href="../group.html">Grupo</a>
+                    <ul>
+                        <li><a href="andre.html">André</a></li>
+                        <li><a href="mayara.html">Mayara</a></li>
+                        <li><a href="pedro.html">Pedro</a></li>
+                        <li><a href="huanna.html">Huanna</a></li>
+                        <li><a href="karen.html">Karen</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../media.html">Mídia</a>
+                    <ul>
+                        <li><a href="../media.html#audio">Audio</a></li>
+                        <li><a href="../media.html#video">Video</a></li>
+                        <li><a href="../media.html#links">Links</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../concepts.html">Conceitos utilizados</a>
+                    <ul>
+                        <li><a href="../concepts.html#html">HTML</a></li>
+                        <li><a href="../concepts.html#css">CSS</a></li>
+                        <li><a href="../concepts.html#other">Outros</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer centralizedText">
+        <p>
+            Website desenvolvido para a disciplina de Programação Web<br>
+            <strong>Contato: </strong><a href="mailto:grupoxablau2017@gmail.com" target="_top">grupoxablau2017@gmail.com</a><br>
+            Projeto no <a href="https://github.com/ALREstevam/Programacao-Web-T1" target="_blank">GitHub</a>
+        </p>
+        <a href="https://icons8.com">Icon pack by Icons8</a>
+    </footer>
+</body>
+</html>
